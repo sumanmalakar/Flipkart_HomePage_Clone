@@ -1,0 +1,39 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+
+}
+
+.flex-all-center p{
+  padding: 10px;
+
+}
+footer p a{
+  color: white;
+  text-decoration: none;
+}
+.btn{
+  padding: 5px 17px;
+color: white;
+background: var(--main-bg-color);
+border: 2px solid white;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.my-2{
+  margin: 26px 0;
+}
+
+
+.my-1{
+  margin: 6px 0;
+}
+
+
+.text-center{
+  text-align: center;
+}

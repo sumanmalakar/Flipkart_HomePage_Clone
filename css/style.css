@@ -1,0 +1,117 @@
+/* Google fonts link */
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  /* color: white; */
+}
+header {
+  background: var(--main-bg-color);
+  color: white;
+  /* border: 3px solid red; */
+  font-family: "Ibarra Real Nova", serif;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 83px;
+  padding: 0 10px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+
+.search button {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 900;
+}
+
+.slider {
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 12px auto;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.card{
+  max-width: 91vw;
+  /* margin: auto; */
+  margin: 7vw 1vw 9vw;
+  /* background-color: blue; */
+}
+.cards{
+  display: flex;
+  /* flex-direction: row;  */
+  justify-content: center; 
+  align-items: center;
+  /* overflow: hidden; */
+  overflow: scroll;
+
+}
+.card-item{
+  display:  inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.card h2{
+    font-family: "Ibarra Real Nova", serif;
+    
+}
+
+
+.container {
+  min-height: calc(100vh - 58px - 10vh);
+ 
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+nav ul li a:hover {
+  background-color: #162f49;
+  padding: 12px;
+  /* color: black; */
+  font-weight: bolder;
+}
