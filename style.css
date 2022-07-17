@@ -122,3 +122,9 @@ nav ul li a:hover {
   align-items: center;
   flex-direction: column;
 }
+
+span{
+  padding: 5px;
+  color: rgb(217, 231, 16);
+  font-weight: 1000;
+}
