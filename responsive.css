@@ -78,4 +78,8 @@ margin-top: 1rem;
   font-size: 2em;
 }
 
+.carousel-item  img{
+  height: 65vw;
+}
+
 } 
